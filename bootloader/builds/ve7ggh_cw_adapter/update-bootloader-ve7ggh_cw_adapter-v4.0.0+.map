@@ -1,0 +1,628 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+                              build/ve7ggh_cw_adapter/startup_samd21.o (memset)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+                              build/ve7ggh_cw_adapter/startup_samd21.o (memcpy)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/ve7ggh_cw_adapter/flash_samd21.o
+ .data          0x00000000        0x0 build/ve7ggh_cw_adapter/flash_samd21.o
+ .bss           0x00000000        0x0 build/ve7ggh_cw_adapter/flash_samd21.o
+ .text.flash_erase_to_end
+                0x00000000       0x1a build/ve7ggh_cw_adapter/flash_samd21.o
+ .text.copy_words
+                0x00000000       0x14 build/ve7ggh_cw_adapter/flash_samd21.o
+ .text.flash_write
+                0x00000000       0x98 build/ve7ggh_cw_adapter/flash_samd21.o
+ .text          0x00000000        0x0 build/ve7ggh_cw_adapter/init_samd21.o
+ .data          0x00000000        0x0 build/ve7ggh_cw_adapter/init_samd21.o
+ .bss           0x00000000        0x0 build/ve7ggh_cw_adapter/init_samd21.o
+ .data.g_interrupt_enabled
+                0x00000000        0x1 build/ve7ggh_cw_adapter/init_samd21.o
+ .text          0x00000000        0x0 build/ve7ggh_cw_adapter/startup_samd21.o
+ .data          0x00000000        0x0 build/ve7ggh_cw_adapter/startup_samd21.o
+ .bss           0x00000000        0x0 build/ve7ggh_cw_adapter/startup_samd21.o
+ .text          0x00000000        0x0 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .data          0x00000000        0x0 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .bss           0x00000000        0x0 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.usart_open
+                0x00000000       0xbc build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.usart_close
+                0x00000000       0x10 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.usart_putc
+                0x00000000       0x14 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.usart_getc
+                0x00000000       0x10 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.usart_is_rx_ready
+                0x00000000       0x10 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.usart_sharp_received
+                0x00000000       0x1a build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.usart_readc
+                0x00000000       0x20 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.usart_putdata
+                0x00000000       0x1a build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.usart_getdata
+                0x00000000        0xe build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.getbytes
+                0x00000000       0x60 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.getPacket
+                0x00000000       0x68 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.usart_putdata_xmd
+                0x00000000      0x10c build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text.usart_getdata_xmd
+                0x00000000       0xb8 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .bss.mode_of_transfer
+                0x00000000        0x1 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .bss.size_of_data
+                0x00000000        0x2 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .bss.error_timeout
+                0x00000000        0x1 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .bss.idx_tx_write
+                0x00000000        0x1 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .bss.idx_tx_read
+                0x00000000        0x1 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .bss.buffer_tx_usart
+                0x00000000       0x80 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .bss.idx_rx_write
+                0x00000000        0x1 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .bss.idx_rx_read
+                0x00000000        0x1 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .bss.buffer_rx_usart
+                0x00000000       0x80 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .bss.b_sharp_received
+                0x00000000        0x1 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .text          0x00000000        0x0 build/ve7ggh_cw_adapter/screen.o
+ .data          0x00000000        0x0 build/ve7ggh_cw_adapter/screen.o
+ .bss           0x00000000        0x0 build/ve7ggh_cw_adapter/screen.o
+ .debug_info    0x00000000       0x73 build/ve7ggh_cw_adapter/screen.o
+ .debug_abbrev  0x00000000       0x26 build/ve7ggh_cw_adapter/screen.o
+ .debug_aranges
+                0x00000000       0x18 build/ve7ggh_cw_adapter/screen.o
+ .debug_line    0x00000000       0x2d build/ve7ggh_cw_adapter/screen.o
+ .debug_str     0x00000000      0x167 build/ve7ggh_cw_adapter/screen.o
+ .comment       0x00000000       0x27 build/ve7ggh_cw_adapter/screen.o
+ .ARM.attributes
+                0x00000000       0x2c build/ve7ggh_cw_adapter/screen.o
+ .text          0x00000000        0x0 build/ve7ggh_cw_adapter/images.o
+ .data          0x00000000        0x0 build/ve7ggh_cw_adapter/images.o
+ .bss           0x00000000        0x0 build/ve7ggh_cw_adapter/images.o
+ .rodata.font8  0x00000000      0x240 build/ve7ggh_cw_adapter/images.o
+ .rodata.arrowLogo
+                0x00000000       0x39 build/ve7ggh_cw_adapter/images.o
+ .rodata.pendriveLogo
+                0x00000000       0x3e build/ve7ggh_cw_adapter/images.o
+ .rodata.fileLogo
+                0x00000000       0x4a build/ve7ggh_cw_adapter/images.o
+ .debug_info    0x00000000      0x10b build/ve7ggh_cw_adapter/images.o
+ .debug_abbrev  0x00000000       0x6c build/ve7ggh_cw_adapter/images.o
+ .debug_aranges
+                0x00000000       0x18 build/ve7ggh_cw_adapter/images.o
+ .debug_line    0x00000000       0x63 build/ve7ggh_cw_adapter/images.o
+ .debug_str     0x00000000      0x18a build/ve7ggh_cw_adapter/images.o
+ .comment       0x00000000       0x27 build/ve7ggh_cw_adapter/images.o
+ .ARM.attributes
+                0x00000000       0x2c build/ve7ggh_cw_adapter/images.o
+ .text          0x00000000        0x0 build/ve7ggh_cw_adapter/utils.o
+ .data          0x00000000        0x0 build/ve7ggh_cw_adapter/utils.o
+ .bss           0x00000000        0x0 build/ve7ggh_cw_adapter/utils.o
+ .text.writeNum
+                0x00000000       0x38 build/ve7ggh_cw_adapter/utils.o
+ .text.led_signal
+                0x00000000       0x20 build/ve7ggh_cw_adapter/utils.o
+ .text.timerTick
+                0x00000000       0x40 build/ve7ggh_cw_adapter/utils.o
+ .bss.resetHorizon
+                0x00000000        0x4 build/ve7ggh_cw_adapter/utils.o
+ .bss.timerHigh
+                0x00000000        0x4 build/ve7ggh_cw_adapter/utils.o
+ .bss.timerLow  0x00000000        0x4 build/ve7ggh_cw_adapter/utils.o
+ .text          0x00000000        0x0 build/ve7ggh_cw_adapter/selfmain.o
+ .data          0x00000000        0x0 build/ve7ggh_cw_adapter/selfmain.o
+ .bss           0x00000000        0x0 build/ve7ggh_cw_adapter/selfmain.o
+ .text          0x00000000        0x0 build/ve7ggh_cw_adapter/selfdata.o
+ .data          0x00000000        0x0 build/ve7ggh_cw_adapter/selfdata.o
+ .bss           0x00000000        0x0 build/ve7ggh_cw_adapter/selfdata.o
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00002000         0x00020000         xr
+ram              0x20000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/ve7ggh_cw_adapter/flash_samd21.o
+LOAD build/ve7ggh_cw_adapter/init_samd21.o
+LOAD build/ve7ggh_cw_adapter/startup_samd21.o
+LOAD build/ve7ggh_cw_adapter/usart_sam_ba.o
+LOAD build/ve7ggh_cw_adapter/screen.o
+LOAD build/ve7ggh_cw_adapter/images.o
+LOAD build/ve7ggh_cw_adapter/utils.o
+LOAD build/ve7ggh_cw_adapter/selfmain.o
+LOAD build/ve7ggh_cw_adapter/selfdata.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+END GROUP
+                0x00002000                        STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:DEFINED (__stack_size__)?__stack_size__:0x2000
+
+.text           0x00002000     0x2744
+                0x00002000                        . = ALIGN (0x4)
+                0x00002000                        _sfixed = .
+ *(.vectors .vectors.*)
+ .vectors       0x00002000       0xb4 build/ve7ggh_cw_adapter/startup_samd21.o
+                0x00002000                exception_table
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.flash_erase_row
+                0x000020b4       0x28 build/ve7ggh_cw_adapter/flash_samd21.o
+                0x000020b4                flash_erase_row
+ .text.flash_write_words
+                0x000020dc       0x50 build/ve7ggh_cw_adapter/flash_samd21.o
+                0x000020dc                flash_write_words
+ .text.flash_write_row
+                0x0000212c       0x2e build/ve7ggh_cw_adapter/flash_samd21.o
+                0x0000212c                flash_write_row
+ *fill*         0x0000215a        0x2 
+ .text.dfll_sync
+                0x0000215c       0x10 build/ve7ggh_cw_adapter/init_samd21.o
+ .text.system_init
+                0x0000216c       0xbc build/ve7ggh_cw_adapter/init_samd21.o
+                0x0000216c                system_init
+ .text.SysTick_Handler
+                0x00002228        0x8 build/ve7ggh_cw_adapter/init_samd21.o
+                0x00002228                SysTick_Handler
+ .text.Dummy_Handler
+                0x00002230        0x2 build/ve7ggh_cw_adapter/startup_samd21.o
+                0x00002230                DMAC_Handler
+                0x00002230                AC_Handler
+                0x00002230                PendSV_Handler
+                0x00002230                NMI_Handler
+                0x00002230                SERCOM1_Handler
+                0x00002230                ADC_Handler
+                0x00002230                TCC1_Handler
+                0x00002230                SERCOM2_Handler
+                0x00002230                TCC0_Handler
+                0x00002230                RTC_Handler
+                0x00002230                EIC_Handler
+                0x00002230                WDT_Handler
+                0x00002230                TC4_Handler
+                0x00002230                USB_Handler
+                0x00002230                TC3_Handler
+                0x00002230                Dummy_Handler
+                0x00002230                PM_Handler
+                0x00002230                SVC_Handler
+                0x00002230                TCC2_Handler
+                0x00002230                EVSYS_Handler
+                0x00002230                SERCOM3_Handler
+                0x00002230                I2S_Handler
+                0x00002230                NVMCTRL_Handler
+                0x00002230                SERCOM0_Handler
+                0x00002230                DAC_Handler
+                0x00002230                PTC_Handler
+                0x00002230                TC5_Handler
+                0x00002230                SYSCTRL_Handler
+ .text.HardFault_Handler
+                0x00002232        0x2 build/ve7ggh_cw_adapter/startup_samd21.o
+                0x00002232                HardFault_Handler
+ .text.Reset_Handler
+                0x00002234       0xc0 build/ve7ggh_cw_adapter/startup_samd21.o
+                0x00002234                Reset_Handler
+ .text.add_crc  0x000022f4       0x5c build/ve7ggh_cw_adapter/usart_sam_ba.o
+                0x000022f4                add_crc
+ .text.neopixel_send_buffer_core
+                0x00002350       0x36 build/ve7ggh_cw_adapter/utils.o
+ *fill*         0x00002386        0x2 
+ .text.delay    0x00002388       0x28 build/ve7ggh_cw_adapter/utils.o
+                0x00002388                delay
+ .text.panic    0x000023b0        0x2 build/ve7ggh_cw_adapter/utils.o
+                0x000023b0                panic
+ *fill*         0x000023b2        0x2 
+ .text.resetIntoBootloader
+                0x000023b4       0x28 build/ve7ggh_cw_adapter/utils.o
+                0x000023b4                resetIntoBootloader
+ .text.led_tick
+                0x000023dc       0x58 build/ve7ggh_cw_adapter/utils.o
+                0x000023dc                led_tick
+ .text.led_init
+                0x00002434        0x2 build/ve7ggh_cw_adapter/utils.o
+                0x00002434                led_init
+ *fill*         0x00002436        0x2 
+ .text.RGBLED_set_color
+                0x00002438       0x4c build/ve7ggh_cw_adapter/utils.o
+                0x00002438                RGBLED_set_color
+ .text.resetIntoApp
+                0x00002484       0x30 build/ve7ggh_cw_adapter/utils.o
+                0x00002484                resetIntoApp
+ .text.nvmctrl_exec_cmd
+                0x000024b4       0x2c build/ve7ggh_cw_adapter/selfmain.o
+ .text.set_fuses_and_bootprot
+                0x000024e0       0x80 build/ve7ggh_cw_adapter/selfmain.o
+                0x000024e0                set_fuses_and_bootprot
+ .text.startup.main
+                0x00002560       0xa0 build/ve7ggh_cw_adapter/selfmain.o
+                0x00002560                main
+ .text          0x00002600       0xa8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+                0x00002600                memset
+ .text          0x000026a8       0x8c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+                0x000026a8                memcpy
+ *(.glue_7t)
+ .glue_7t       0x00002734        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00002734        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata.bootloader_crcs
+                0x00002734       0x10 build/ve7ggh_cw_adapter/selfdata.o
+                0x00002734                bootloader_crcs
+ .rodata.bootloader
+                0x00002744     0x2000 build/ve7ggh_cw_adapter/selfdata.o
+                0x00002744                bootloader
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00004744                        . = ALIGN (0x4)
+ *(.init)
+                0x00004744                        . = ALIGN (0x4)
+                0x00004744                        __preinit_array_start = .
+ *(.preinit_array)
+                0x00004744                        __preinit_array_end = .
+                0x00004744                        . = ALIGN (0x4)
+                0x00004744                        __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x00004744                        __init_array_end = .
+                0x00004744                        . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x00004744                        . = ALIGN (0x4)
+                0x00004744                        _efixed = .
+                [!provide]                        PROVIDE (__exidx_start = .)
+
+.vfp11_veneer   0x00004744        0x0
+ .vfp11_veneer  0x00004744        0x0 linker stubs
+
+.v4_bx          0x00004744        0x0
+ .v4_bx         0x00004744        0x0 linker stubs
+
+.iplt           0x00004744        0x0
+ .iplt          0x00004744        0x0 build/ve7ggh_cw_adapter/flash_samd21.o
+
+.igot.plt       0x00004744        0x0
+ .igot.plt      0x00004744        0x0 build/ve7ggh_cw_adapter/flash_samd21.o
+
+.rel.dyn        0x00004744        0x0
+ .rel.iplt      0x00004744        0x0 build/ve7ggh_cw_adapter/flash_samd21.o
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                        PROVIDE (__exidx_end = .)
+                0x00004744                        . = ALIGN (0x4)
+                0x00004744                        _etext = .
+
+.relocate       0x20000000        0x8 load address 0x00004744
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _srelocate = .
+ *(.ramfunc .ramfunc.*)
+ *(.data .data.*)
+ .data.current_cpu_frequency_MHz
+                0x20000000        0x4 build/ve7ggh_cw_adapter/init_samd21.o
+                0x20000000                current_cpu_frequency_MHz
+ .data.limit    0x20000004        0x1 build/ve7ggh_cw_adapter/utils.o
+ .data.led_tick_step
+                0x20000005        0x1 build/ve7ggh_cw_adapter/utils.o
+                0x20000005                led_tick_step
+                0x20000008                        . = ALIGN (0x4)
+ *fill*         0x20000006        0x2 
+                0x20000008                        _erelocate = .
+
+.bss            0x20000008      0x30c load address 0x0000474c
+                0x20000008                        . = ALIGN (0x4)
+                0x20000008                        _sbss = .
+                0x20000008                        _szero = .
+ *(.bss .bss.*)
+ .bss.crcCache  0x20000008      0x200 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .bss.led_tick_on
+                0x20000208        0x1 build/ve7ggh_cw_adapter/utils.o
+                0x20000208                led_tick_on
+ *fill*         0x20000209        0x3 
+ .bss.signal_end
+                0x2000020c        0x4 build/ve7ggh_cw_adapter/utils.o
+ .bss.now       0x20000210        0x4 build/ve7ggh_cw_adapter/utils.o
+ .bss.bootloader_page_buf
+                0x20000214      0x100 build/ve7ggh_cw_adapter/selfmain.o
+                0x20000214                bootloader_page_buf
+ *(COMMON)
+                0x20000314                        . = ALIGN (0x4)
+                0x20000314                        _ebss = .
+                0x20000314                        _ezero = .
+
+.stack          0x20000314     0x2004 load address 0x00004a58
+                0x20000318                        . = ALIGN (0x8)
+ *fill*         0x20000314        0x4 
+                0x20000318                        _sstack = .
+                0x20002318                        . = (. + STACK_SIZE)
+ *fill*         0x20000318     0x2000 
+                0x20002318                        . = ALIGN (0x8)
+                0x20002318                        _estack = .
+                0x20002318                        . = ALIGN (0x4)
+                0x20002318                        _end = .
+OUTPUT(build/ve7ggh_cw_adapter/update-bootloader-ve7ggh_cw_adapter-v4.0.0+.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0xa59d
+ .debug_info    0x00000000      0x70c build/ve7ggh_cw_adapter/flash_samd21.o
+ .debug_info    0x0000070c     0x1a59 build/ve7ggh_cw_adapter/init_samd21.o
+ .debug_info    0x00002165     0x35f6 build/ve7ggh_cw_adapter/startup_samd21.o
+ .debug_info    0x0000575b     0x3579 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .debug_info    0x00008cd4      0xbef build/ve7ggh_cw_adapter/utils.o
+ .debug_info    0x000098c3      0x97d build/ve7ggh_cw_adapter/selfmain.o
+ .debug_info    0x0000a240       0xd6 build/ve7ggh_cw_adapter/selfdata.o
+ .debug_info    0x0000a316      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_info    0x0000a44b      0x152 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_abbrev   0x00000000     0x1530
+ .debug_abbrev  0x00000000      0x20a build/ve7ggh_cw_adapter/flash_samd21.o
+ .debug_abbrev  0x0000020a      0x2cf build/ve7ggh_cw_adapter/init_samd21.o
+ .debug_abbrev  0x000004d9      0x2b4 build/ve7ggh_cw_adapter/startup_samd21.o
+ .debug_abbrev  0x0000078d      0x45b build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .debug_abbrev  0x00000be8      0x3da build/ve7ggh_cw_adapter/utils.o
+ .debug_abbrev  0x00000fc2      0x36c build/ve7ggh_cw_adapter/selfmain.o
+ .debug_abbrev  0x0000132e       0x81 build/ve7ggh_cw_adapter/selfdata.o
+ .debug_abbrev  0x000013af       0xb7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_abbrev  0x00001466       0xca /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_loclists
+                0x00000000     0x1124
+ .debug_loclists
+                0x00000000      0x303 build/ve7ggh_cw_adapter/flash_samd21.o
+ .debug_loclists
+                0x00000303       0x3e build/ve7ggh_cw_adapter/init_samd21.o
+ .debug_loclists
+                0x00000341      0x662 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .debug_loclists
+                0x000009a3      0x17a build/ve7ggh_cw_adapter/utils.o
+ .debug_loclists
+                0x00000b1d      0x17a build/ve7ggh_cw_adapter/selfmain.o
+ .debug_loclists
+                0x00000c97      0x1c6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_loclists
+                0x00000e5d      0x2c7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_aranges  0x00000000      0x228
+ .debug_aranges
+                0x00000000       0x48 build/ve7ggh_cw_adapter/flash_samd21.o
+ .debug_aranges
+                0x00000048       0x30 build/ve7ggh_cw_adapter/init_samd21.o
+ .debug_aranges
+                0x00000078       0x30 build/ve7ggh_cw_adapter/startup_samd21.o
+ .debug_aranges
+                0x000000a8       0x88 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .debug_aranges
+                0x00000130       0x70 build/ve7ggh_cw_adapter/utils.o
+ .debug_aranges
+                0x000001a0       0x30 build/ve7ggh_cw_adapter/selfmain.o
+ .debug_aranges
+                0x000001d0       0x18 build/ve7ggh_cw_adapter/selfdata.o
+ .debug_aranges
+                0x000001e8       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_aranges
+                0x00000208       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_rnglists
+                0x00000000      0x243
+ .debug_rnglists
+                0x00000000       0x59 build/ve7ggh_cw_adapter/flash_samd21.o
+ .debug_rnglists
+                0x00000059       0x3b build/ve7ggh_cw_adapter/init_samd21.o
+ .debug_rnglists
+                0x00000094       0x20 build/ve7ggh_cw_adapter/startup_samd21.o
+ .debug_rnglists
+                0x000000b4       0xb0 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .debug_rnglists
+                0x00000164       0x8b build/ve7ggh_cw_adapter/utils.o
+ .debug_rnglists
+                0x000001ef       0x54 build/ve7ggh_cw_adapter/selfmain.o
+
+.debug_line     0x00000000     0x1d67
+ .debug_line    0x00000000      0x352 build/ve7ggh_cw_adapter/flash_samd21.o
+ .debug_line    0x00000352      0x2d2 build/ve7ggh_cw_adapter/init_samd21.o
+ .debug_line    0x00000624      0x1df build/ve7ggh_cw_adapter/startup_samd21.o
+ .debug_line    0x00000803      0x8aa build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .debug_line    0x000010ad      0x4e1 build/ve7ggh_cw_adapter/utils.o
+ .debug_line    0x0000158e      0x3bc build/ve7ggh_cw_adapter/selfmain.o
+ .debug_line    0x0000194a       0x79 build/ve7ggh_cw_adapter/selfdata.o
+ .debug_line    0x000019c3      0x1bd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_line    0x00001b80      0x1e7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_str      0x00000000     0x290a
+ .debug_str     0x00000000     0x290a build/ve7ggh_cw_adapter/flash_samd21.o
+                                0x394 (size before relaxing)
+ .debug_str     0x0000290a      0xa17 build/ve7ggh_cw_adapter/init_samd21.o
+ .debug_str     0x0000290a     0x1313 build/ve7ggh_cw_adapter/startup_samd21.o
+ .debug_str     0x0000290a      0xf5f build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .debug_str     0x0000290a      0x4c4 build/ve7ggh_cw_adapter/utils.o
+ .debug_str     0x0000290a      0x47d build/ve7ggh_cw_adapter/selfmain.o
+ .debug_str     0x0000290a      0x19e build/ve7ggh_cw_adapter/selfdata.o
+ .debug_str     0x0000290a      0x1a6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_str     0x0000290a      0x1c3 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+
+.comment        0x00000000       0x26
+ .comment       0x00000000       0x26 build/ve7ggh_cw_adapter/flash_samd21.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026       0x27 build/ve7ggh_cw_adapter/init_samd21.o
+ .comment       0x00000026       0x27 build/ve7ggh_cw_adapter/startup_samd21.o
+ .comment       0x00000026       0x27 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .comment       0x00000026       0x27 build/ve7ggh_cw_adapter/utils.o
+ .comment       0x00000026       0x27 build/ve7ggh_cw_adapter/selfmain.o
+ .comment       0x00000026       0x27 build/ve7ggh_cw_adapter/selfdata.o
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+
+.ARM.attributes
+                0x00000000       0x2c
+ .ARM.attributes
+                0x00000000       0x2c build/ve7ggh_cw_adapter/flash_samd21.o
+ .ARM.attributes
+                0x0000002c       0x2c build/ve7ggh_cw_adapter/init_samd21.o
+ .ARM.attributes
+                0x00000058       0x2c build/ve7ggh_cw_adapter/startup_samd21.o
+ .ARM.attributes
+                0x00000084       0x2c build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .ARM.attributes
+                0x000000b0       0x2c build/ve7ggh_cw_adapter/utils.o
+ .ARM.attributes
+                0x000000dc       0x2c build/ve7ggh_cw_adapter/selfmain.o
+ .ARM.attributes
+                0x00000108       0x2c build/ve7ggh_cw_adapter/selfdata.o
+ .ARM.attributes
+                0x00000134       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000160       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_frame    0x00000000      0x498
+ .debug_frame   0x00000000       0xb8 build/ve7ggh_cw_adapter/flash_samd21.o
+ .debug_frame   0x000000b8       0x54 build/ve7ggh_cw_adapter/init_samd21.o
+ .debug_frame   0x0000010c       0x4c build/ve7ggh_cw_adapter/startup_samd21.o
+ .debug_frame   0x00000158      0x190 build/ve7ggh_cw_adapter/usart_sam_ba.o
+ .debug_frame   0x000002e8       0xec build/ve7ggh_cw_adapter/utils.o
+ .debug_frame   0x000003d4       0x64 build/ve7ggh_cw_adapter/selfmain.o
+ .debug_frame   0x00000438       0x30 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_frame   0x00000468       0x30 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+
+Cross Reference Table
+
+Symbol                                            File
+AC_Handler                                        build/ve7ggh_cw_adapter/startup_samd21.o
+ADC_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+DAC_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+DMAC_Handler                                      build/ve7ggh_cw_adapter/startup_samd21.o
+Dummy_Handler                                     build/ve7ggh_cw_adapter/startup_samd21.o
+EIC_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+EVSYS_Handler                                     build/ve7ggh_cw_adapter/startup_samd21.o
+HardFault_Handler                                 build/ve7ggh_cw_adapter/startup_samd21.o
+I2S_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+NMI_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+NVMCTRL_Handler                                   build/ve7ggh_cw_adapter/startup_samd21.o
+PM_Handler                                        build/ve7ggh_cw_adapter/startup_samd21.o
+PTC_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+PendSV_Handler                                    build/ve7ggh_cw_adapter/startup_samd21.o
+RGBLED_set_color                                  build/ve7ggh_cw_adapter/utils.o
+RTC_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+Reset_Handler                                     build/ve7ggh_cw_adapter/startup_samd21.o
+SERCOM0_Handler                                   build/ve7ggh_cw_adapter/startup_samd21.o
+SERCOM1_Handler                                   build/ve7ggh_cw_adapter/startup_samd21.o
+SERCOM2_Handler                                   build/ve7ggh_cw_adapter/startup_samd21.o
+SERCOM3_Handler                                   build/ve7ggh_cw_adapter/startup_samd21.o
+SVC_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+SYSCTRL_Handler                                   build/ve7ggh_cw_adapter/startup_samd21.o
+SysTick_Handler                                   build/ve7ggh_cw_adapter/init_samd21.o
+TC3_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+TC4_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+TC5_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+TCC0_Handler                                      build/ve7ggh_cw_adapter/startup_samd21.o
+TCC1_Handler                                      build/ve7ggh_cw_adapter/startup_samd21.o
+TCC2_Handler                                      build/ve7ggh_cw_adapter/startup_samd21.o
+USB_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+WDT_Handler                                       build/ve7ggh_cw_adapter/startup_samd21.o
+_erelocate                                        build/ve7ggh_cw_adapter/startup_samd21.o
+_estack                                           build/ve7ggh_cw_adapter/startup_samd21.o
+_etext                                            build/ve7ggh_cw_adapter/startup_samd21.o
+_ezero                                            build/ve7ggh_cw_adapter/startup_samd21.o
+_sfixed                                           build/ve7ggh_cw_adapter/startup_samd21.o
+_srelocate                                        build/ve7ggh_cw_adapter/startup_samd21.o
+_szero                                            build/ve7ggh_cw_adapter/startup_samd21.o
+add_crc                                           build/ve7ggh_cw_adapter/usart_sam_ba.o
+                                                  build/ve7ggh_cw_adapter/selfmain.o
+arrowLogo                                         build/ve7ggh_cw_adapter/images.o
+b_sharp_received                                  build/ve7ggh_cw_adapter/usart_sam_ba.o
+bootloader                                        build/ve7ggh_cw_adapter/selfdata.o
+                                                  build/ve7ggh_cw_adapter/selfmain.o
+bootloader_crcs                                   build/ve7ggh_cw_adapter/selfdata.o
+                                                  build/ve7ggh_cw_adapter/selfmain.o
+bootloader_page_buf                               build/ve7ggh_cw_adapter/selfmain.o
+buffer_rx_usart                                   build/ve7ggh_cw_adapter/usart_sam_ba.o
+buffer_tx_usart                                   build/ve7ggh_cw_adapter/usart_sam_ba.o
+copy_words                                        build/ve7ggh_cw_adapter/flash_samd21.o
+current_cpu_frequency_MHz                         build/ve7ggh_cw_adapter/init_samd21.o
+                                                  build/ve7ggh_cw_adapter/utils.o
+delay                                             build/ve7ggh_cw_adapter/utils.o
+error_timeout                                     build/ve7ggh_cw_adapter/usart_sam_ba.o
+exception_table                                   build/ve7ggh_cw_adapter/startup_samd21.o
+fileLogo                                          build/ve7ggh_cw_adapter/images.o
+flash_erase_row                                   build/ve7ggh_cw_adapter/flash_samd21.o
+flash_erase_to_end                                build/ve7ggh_cw_adapter/flash_samd21.o
+flash_write                                       build/ve7ggh_cw_adapter/flash_samd21.o
+flash_write_row                                   build/ve7ggh_cw_adapter/flash_samd21.o
+                                                  build/ve7ggh_cw_adapter/selfmain.o
+flash_write_words                                 build/ve7ggh_cw_adapter/flash_samd21.o
+                                                  build/ve7ggh_cw_adapter/selfmain.o
+font8                                             build/ve7ggh_cw_adapter/images.o
+g_interrupt_enabled                               build/ve7ggh_cw_adapter/init_samd21.o
+getPacket                                         build/ve7ggh_cw_adapter/usart_sam_ba.o
+idx_rx_read                                       build/ve7ggh_cw_adapter/usart_sam_ba.o
+idx_rx_write                                      build/ve7ggh_cw_adapter/usart_sam_ba.o
+idx_tx_read                                       build/ve7ggh_cw_adapter/usart_sam_ba.o
+idx_tx_write                                      build/ve7ggh_cw_adapter/usart_sam_ba.o
+led_init                                          build/ve7ggh_cw_adapter/utils.o
+                                                  build/ve7ggh_cw_adapter/selfmain.o
+led_signal                                        build/ve7ggh_cw_adapter/utils.o
+led_tick                                          build/ve7ggh_cw_adapter/utils.o
+                                                  build/ve7ggh_cw_adapter/init_samd21.o
+led_tick_on                                       build/ve7ggh_cw_adapter/utils.o
+led_tick_step                                     build/ve7ggh_cw_adapter/utils.o
+main                                              build/ve7ggh_cw_adapter/selfmain.o
+                                                  build/ve7ggh_cw_adapter/startup_samd21.o
+memcpy                                            /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memcpy-stub.o)
+                                                  build/ve7ggh_cw_adapter/selfmain.o
+                                                  build/ve7ggh_cw_adapter/startup_samd21.o
+memset                                            /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-memset.o)
+                                                  build/ve7ggh_cw_adapter/startup_samd21.o
+mode_of_transfer                                  build/ve7ggh_cw_adapter/usart_sam_ba.o
+panic                                             build/ve7ggh_cw_adapter/utils.o
+                                                  build/ve7ggh_cw_adapter/selfmain.o
+pendriveLogo                                      build/ve7ggh_cw_adapter/images.o
+resetHorizon                                      build/ve7ggh_cw_adapter/utils.o
+resetIntoApp                                      build/ve7ggh_cw_adapter/utils.o
+                                                  build/ve7ggh_cw_adapter/selfmain.o
+resetIntoBootloader                               build/ve7ggh_cw_adapter/utils.o
+                                                  build/ve7ggh_cw_adapter/selfmain.o
+set_fuses_and_bootprot                            build/ve7ggh_cw_adapter/selfmain.o
+size_of_data                                      build/ve7ggh_cw_adapter/usart_sam_ba.o
+system_init                                       build/ve7ggh_cw_adapter/init_samd21.o
+                                                  build/ve7ggh_cw_adapter/selfmain.o
+timerHigh                                         build/ve7ggh_cw_adapter/utils.o
+timerTick                                         build/ve7ggh_cw_adapter/utils.o
+uart_basic_init                                   build/ve7ggh_cw_adapter/usart_sam_ba.o
+uart_disable                                      build/ve7ggh_cw_adapter/usart_sam_ba.o
+uart_get_sercom_index                             build/ve7ggh_cw_adapter/usart_sam_ba.o
+uart_read_byte                                    build/ve7ggh_cw_adapter/usart_sam_ba.o
+uart_write_byte                                   build/ve7ggh_cw_adapter/usart_sam_ba.o
+usart_close                                       build/ve7ggh_cw_adapter/usart_sam_ba.o
+usart_getc                                        build/ve7ggh_cw_adapter/usart_sam_ba.o
+usart_getdata                                     build/ve7ggh_cw_adapter/usart_sam_ba.o
+usart_getdata_xmd                                 build/ve7ggh_cw_adapter/usart_sam_ba.o
+usart_is_rx_ready                                 build/ve7ggh_cw_adapter/usart_sam_ba.o
+usart_open                                        build/ve7ggh_cw_adapter/usart_sam_ba.o
+usart_putc                                        build/ve7ggh_cw_adapter/usart_sam_ba.o
+usart_putdata                                     build/ve7ggh_cw_adapter/usart_sam_ba.o
+usart_putdata_xmd                                 build/ve7ggh_cw_adapter/usart_sam_ba.o
+usart_readc                                       build/ve7ggh_cw_adapter/usart_sam_ba.o
+usart_sharp_received                              build/ve7ggh_cw_adapter/usart_sam_ba.o
+writeNum                                          build/ve7ggh_cw_adapter/utils.o
