@@ -32,8 +32,7 @@ Original SAM-BA components retain their original BSD-style notices.
 
 Firmware
 
-Copyright © 2026
-<VE7GGH>
+Copyright © 2026 VE7GGH
 
 Licensed under the MIT License.
 
