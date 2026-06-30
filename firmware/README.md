@@ -14,9 +14,9 @@ This firmware relies on the following open-source libraries:
 ## Installation
 1.  Connect your device to your computer via USB.
 2.  Double-tap the Reset button to enter Bootloader mode.
-3.  A drive named `<YOUR_DRIVE_NAME>` will appear.
+3.  A drive named `<CWUSBUPDATE>` will appear.
 4.  Compile this code in the Arduino IDE (ensure you have the SAMD Core installed).
-5.  Upload the `.bin` or `.uf2` file to the device.
+5.  Upload the `.ino` or `.uf2` file to the device.
 
 ## Configuration
 Pins used in this firmware:
