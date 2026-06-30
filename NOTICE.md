@@ -18,4 +18,4 @@ Licensed under the MIT License
 
 https://github.com/adafruit/uf2-samdx1
 
-Modifications to both hardware and bootloader are Copyright © 2026 .
+Modifications to both hardware and bootloader are Copyright © 2026 VE7GGH
