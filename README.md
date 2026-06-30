@@ -45,16 +45,17 @@ Features
 Plug & Play USB HID keyboard device
 Works with standard 3.5 mm TRS CW paddles
 Compatible with Windows, macOS, Linux, and Android (OTG)
-Compatible with Morse Code World, VBand, DitDahDit, and more
-Open-source firmware
-Drag-and-drop UF2 firmware updates
-No drivers required
-Low latency keying
-Supports iambic paddles
-Onboard RGB status LED
-Compact USB stick form factor
-Powered directly from USB
-Canadian-designed open-source project
+Compatible with Morse Code World, VBand, DitDahDit, and more.
+Open-source firmware.
+Drag-and-drop UF2 firmware updates.
+No drivers required.
+Low latency keying.
+Supports iambic paddles.
+Onboard RGB status LED.
+Compact USB stick form factor.
+Powered directly from USB.
+Canadian-designed open-source project.
+--------------------------------------------------------------------------------------------------
 Applications
 The CW Adapter is ideal for:
 
@@ -65,6 +66,10 @@ Portable CW practice
 Club training sessions
 Contest preparation
 Demonstrating CW at hamfests and public events
+
+Un implemented features --- MIDI compatible input for FlexRadio
+
+
 How It Works
 The CW Adapter appears to the host computer as a standard USB keyboard.
 
@@ -114,40 +119,7 @@ Open Source Canadian Ham Project
 
 73!
 
--------------------------------------------------------------------------------------------------
-## Repository Structure
-
-```text
-<Project Name>/
-│
-├── README.md
-├── LICENSE
-├── NOTICE.md
-│
-├── hardware/
-│   ├── README.md
-│   ├── LICENSE
-│   ├── EasyEDA_Source/
-│   ├── Gerbers/
-│   ├── BOM/
-│   ├── Documentation/
-│   └── Images/
-│
-├── bootloader/
-│   ├── README.md
-│   ├── LICENSE
-│   ├── THIRD-PARTY-NOTICES.txt
-│   └── ...
-│
-├── firmware/
-│   ├── README.md
-│   ├── LICENSE
-│   └── ...
-│
-└── docs/
-```
-
----
+------------------------------------------------------------------------------------------------
 
 ## Hardware
 
