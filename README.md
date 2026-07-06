@@ -1,195 +1,65 @@
-# <VE7GGH CW USB ADAPTER V1.0>
+# VE7GGH CW USB Adapter
 
-An open-source USB device based on the Microchip ATSAMD21E18A microcontroller.
+An open-source USB CW paddle interface based on the Microchip ATSAMD21E18A microcontroller.
 
-This project is a custom hardware design derived from the Adafruit TRRS Trinkey. It features a redesigned PCB created in EasyEDA Pro, custom branding, board-specific firmware, and a modified UF2 bootloader.
+The VE7GGH CW USB Adapter converts a standard Morse code paddle or straight key into a USB Human Interface Device (HID) keyboard, allowing it to work with a wide variety of amateur radio applications, Morse code trainers, and operating systems without requiring proprietary drivers.
 
-The project is intended to be fully reproducible, allowing anyone to study, modify, manufacture, and improve the hardware and software in accordance with the applicable open-source licenses.
+This project is a complete open-source hardware and software design, including custom hardware, open-source firmware, a modified UF2 bootloader, manufacturing files, and documentation.
 
-> **Note**
-> This project is an independent derivative work and is not affiliated with, sponsored by, or endorsed by Adafruit Industries.
-
--------------------------------------------------------------------------------------------------
-What does this device do?
-This device is a USB breakout for the ATSAMD21 microcontroller, featuring a 3.5mm TRRS jack. It allows users to connect external switches, sensors, or triggers to a computer via USB.
-
-Because it utilizes Native USB, it can be programmed to act as a:
-
-USB HID Keyboard/Mouse (e.g., for assistive technology switches).
-USB MIDI Controller (e.g., for musical triggers).
-USB Serial Device (e.g., for data logging and sensor reading).
-Unlike a standard USB Audio adapter, this device is designed for custom hardware interaction and DIY electronics projects.
--------------------------------------------------------------------------------------------------
-
-## Features
-
-- Custom ATSAMD21E18A PCB
-- Designed using EasyEDA Pro
-- UF2 Bootloader
-- USB Device Support
-- Open Source Hardware
-- Open Source Firmware
-- Commercial-friendly licensing
-- Manufacturing files included
-
--------------------------------------------------------------------------------------------------
-Open Source USB CW Paddle Interface
-
-Designed by VE7GGH
-
-The CW Adapter is a compact USB device that converts a standard CW iambic paddle into a USB Human Interface Device (HID) keyboard. It allows operators to use their favorite paddle with CW training websites, desktop applications, and Android devices without requiring special drivers or proprietary software.
-
-Built around the Microchip SAMD21 microcontroller and using open-source firmware, the CW Adapter is easy to update, modify, and customize for your own operating preferences.
-
-Features
-Plug & Play USB HID keyboard device
-Works with standard 3.5 mm TRS CW paddles
-Compatible with Windows, macOS, Linux, and Android (OTG)
-Compatible with Morse Code World, VBand, DitDahDit, and more.
-Open-source firmware.
-Drag-and-drop UF2 firmware updates.
-No drivers required.
-Low latency keying.
-Supports iambic paddles.
-Onboard RGB status LED.
-Compact USB stick form factor.
-Powered directly from USB.
-Canadian-designed open-source project.
---------------------------------------------------------------------------------------------------
-Applications
-The CW Adapter is ideal for:
-
-Learning Morse code
-Practicing CW sending
-Online CW training
-Portable CW practice
-Club training sessions
-Contest preparation
-Demonstrating CW at hamfests and public events
-
-Un implemented features --- MIDI compatible input for FlexRadio
-
-
-How It Works
-The CW Adapter appears to the host computer as a standard USB keyboard.
-
-When the paddle is pressed:
-
-Dit paddle → USB keyboard output
-Dah paddle → USB keyboard output
-Because it uses the standard USB HID keyboard protocol, the adapter works with virtually any software that accepts keyboard input for CW operation.
-
-Firmware
-The firmware is completely open source.
-
-Updates are performed using the UF2 bootloader:
-
-Enter bootloader mode.
-A USB drive appears.
-Drag the new .uf2 firmware file onto the drive.
-The adapter automatically reboots into the updated firmware.
-No programming hardware is required.
-
-Hardware
-Microchip ATSAMD21E18A MCU
-USB 2.0 Full-Speed
-3.5 mm TRS paddle input
-RGB NeoPixel status LED
-UF2 bootloader
-USB powered
-Package Options
-Complete Unit
-
-CW Adapter
-Protective shell
-Ready to use
-PCB Version
-
-Bare PCB assembly
-Ideal for custom enclosures or embedded projects
-Open Source
-This project is released as open-source hardware and software.
-
-Contributions, improvements, and community modifications are encouraged.
-
-Author
-VE7GGH
-
-Open Source Canadian Ham Project
-
-73!
-
-------------------------------------------------------------------------------------------------
-
-## Hardware
-
-The hardware is based on the Adafruit TRRS Trinkey open-source hardware design and has been substantially modified.
-
-Changes include:
-
-- New PCB layout
-- EasyEDA Pro project
-- Custom silkscreen
-- Custom routing
-- Board-specific hardware changes
-- Removal of Adafruit branding
-- Project-specific improvements
-
-The repository contains:
-
-- EasyEDA Pro source files
-- Gerber files
-- Bill of Materials (BOM)
-- Pick-and-Place (CPL)
-- PDF schematics
-- PCB documentation
-
-See:
-
-```
-hardware/
-```
+> **Note**: This project is an independent derivative work based on the Adafruit TRRS Trinkey open-source hardware and software ecosystem and is not affiliated with or endorsed by Adafruit Industries.
 
 ---
 
-## Bootloader
+## Project Structure
 
-This project uses a modified version of the Adafruit UF2 SAMDx1 Bootloader.
+| Directory | Description |
+|:---|:---|
+| `/hardware` | PCB design, schematics, Gerbers, BOM, EasyEDA source |
+| `/firmware` | Application firmware |
+| `/bootloader` | Customized UF2 bootloader |
+| `/files` | 3D models, mechanical drawings and supporting files |
 
-Features include:
+Detailed documentation is available in the README contained within each directory.
 
-- UF2 drag-and-drop firmware updates
-- USB Mass Storage Device
-- USB Serial (CDC)
-- Double-tap reset support
-- Board identification
+---
 
-See:
+## Hardware
 
-```
-bootloader/
-```
+The hardware is based on the Adafruit TRRS Trinkey PCB and has been substantially redesigned.
+
+Included are:
+
+- EasyEDA Pro source
+- Schematics
+- PCB layout
+- Gerbers
+- BOM
+- Pick-and-place files
+
+See: [hardware/README.md](hardware/README.md)
 
 ---
 
 ## Firmware
 
-The firmware contains the application code for this hardware platform.
+The firmware converts paddle closures into USB HID keyboard events while providing visual feedback using the onboard NeoPixel.
 
-Depending on the project, it may include:
+Features include:
 
-- USB HID
-- USB Serial
-- Custom device functionality
-- LED control
-- Button handling
-- Application logic
+- USB HID Keyboard
+- Iambic paddle support
+- NeoPixel indicators
+- Low-latency operation
 
-See:
+See: [firmware/README.md](firmware/README.md)
 
-```
-firmware/
-```
+---
+
+## Bootloader
+
+The project uses a customized version of the Adafruit UF2 SAMDx1 Bootloader.
+
+See: [bootloader/README.md](bootloader/README.md)
 
 ---
 
@@ -197,23 +67,7 @@ firmware/
 
 ### Hardware
 
-Open the EasyEDA Pro project located in:
-
-```text
-hardware/EasyEDA_Source/
-```
-
-Generate manufacturing files or use the included Gerbers.
-
-### Bootloader
-
-Compile using the Adafruit UF2 SAMDx1 build environment.
-
-See:
-
-```text
-bootloader/README.md
-```
+Manufacture the PCB using the supplied Gerber files or open the EasyEDA Pro project for modifications.
 
 ### Firmware
 
@@ -222,33 +76,57 @@ Compile using:
 - Arduino IDE
 - PlatformIO
 
-Upload using UF2 or SWD.
+### Bootloader
+
+Compile using the Adafruit UF2 SAMDx1 build environment.
 
 ---
 
-## Programming
+## Updating Firmware
 
-Firmware can be updated by:
-
-1. Connecting the device via USB.
-2. Double-tapping the Reset button.
-3. Copying the generated `.uf2` file onto the UF2 drive.
-
----
-
-## Manufacturing
-
-Included production files:
-
-- Gerbers
-- Drill files
-- BOM
-- Pick-and-Place (CPL)
-
-These files are suitable for PCB fabrication and assembly.
+1. Connect the adapter via USB.
+2. Double-tap the onboard Reset button.
+3. The UF2 drive will appear on your computer.
+4. Drag the new .uf2 firmware file onto the drive.
+5. The device automatically reboots into the updated firmware.
 
 ---
 
 ## Licensing
 
 This repository contains multiple independently licensed components.
+
+| Component | License |
+|:---|:---|
+| Firmware | MIT |
+| Hardware | CC BY-SA 3.0 Unported |
+| Bootloader | MIT with preserved third-party notices |
+
+See the LICENSE file within each directory for complete licensing information.
+
+Third-party acknowledgements are contained in NOTICE.md.
+
+---
+
+## Acknowledgements
+
+This project builds upon the excellent open-source work of:
+
+- Adafruit Industries
+- Microsoft
+- Microchip Technology
+- ARM
+- Arduino
+- TinyUSB contributors
+
+Their commitment to open source has made this project possible.
+
+---
+
+## Author
+
+**VE7GGH**
+
+Open Source Canadian Amateur Radio Project
+
+73!

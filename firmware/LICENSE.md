@@ -1,6 +1,9 @@
-MIT License
+Firmware License
 
-Copyright (c) 2026 <VE7GGH>
+Copyright (c) 2026 VE7GGH
+
+This license applies to the source code and firmware assets contained in the
+firmware/ directory of this repository.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
