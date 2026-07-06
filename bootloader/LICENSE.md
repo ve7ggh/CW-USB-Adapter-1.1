@@ -1,4 +1,4 @@
-MIT License
+Bootloader License
 
 This directory contains a modified version of the Adafruit UF2 SAMDx1
 Bootloader.
@@ -15,18 +15,22 @@ Copyright (c) Microsoft Corporation
 Copyright (c) Adafruit Industries
 Copyright (c) Contributors
 
-The original SAM-BA bootloader components are licensed under a BSD-like
-license from Microchip (formerly Atmel).
+This project incorporates the Adafruit UF2 SAMDx1 Bootloader.
 
-The new UF2 bootloader code is licensed under the MIT License.
+The original project is licensed under the MIT License. Certain inherited
+SAM-BA components retain their original BSD-style license from Microchip
+(formerly Atmel), and those notices remain with the applicable source files.
+
+The original copyright notices and license terms have been preserved.
 
 Modifications
 -------------
 
-Modifications contained in this repository are Copyright (c) 2026
-<Your Name or Company>.
+Modifications contained in this repository are:
 
-These modifications remain distributed under the MIT License.
+Copyright (c) 2026 VE7GGH
+
+These modifications are distributed under the MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -35,8 +39,8 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
