@@ -10,7 +10,7 @@ Copyright © Adafruit Industries
 
 https://github.com/adafruit/Adafruit-TRRS-Trinkey-PCB
 
-Licensed under the Creative Commons Attribution-ShareAlike License.
+Licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0 Unported).
 
 ------------------------------------------------------------
 
@@ -24,9 +24,9 @@ Copyright © Adafruit Industries
 
 https://github.com/adafruit/uf2-samdx1
 
-Licensed under the MIT License.
+The original project is licensed under the MIT License. Certain inherited SAM-BA components retain their original BSD-style license from Microchip (formerly Atmel), and those notices remain with the applicable source files.
 
-Original SAM-BA components retain their original BSD-style notices.
+The original copyright notices and license terms have been preserved.
 
 ------------------------------------------------------------
 
