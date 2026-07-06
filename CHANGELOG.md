@@ -95,11 +95,11 @@ Planned improvements include:
 ## Release Candidate 1.2 July 5, 2026
 [1.2 RC2] — 2026-07-05
 Added
-USB MIDI interface — device now enumerates as both a USB HID Keyboard and a USB MIDI device simultaneously (no drivers required)
-MIDI Note On/Off for Dit and Dah paddle inputs (default: Dit = Note 20, Dah = Note 21)
-Three operating modes: HID Only, MIDI Only, HID + MIDI (Both)
-Flash persistence via FlashStorage_SAMD — operating mode and MIDI note assignments survive power cycles
-Serial CLI over USB virtual COM port with the following commands:
+- USB MIDI interface — device now enumerates as both a USB HID Keyboard and a USB MIDI device simultaneously (no drivers required)
+- MIDI Note On/Off for Dit and Dah paddle inputs (default: Dit = Note 20, Dah = Note 21)
+- Three operating modes: HID Only, MIDI Only, HID + MIDI (Both)
+- Flash persistence via FlashStorage_SAMD — operating mode and MIDI note assignments survive power cycles
+- Serial CLI over USB virtual COM port with the following commands:
 help — list available commands
 status — show current mode, MIDI notes, and live paddle pin states
 mode [hid|midi|both] — change operating mode at runtime
@@ -107,18 +107,20 @@ midi_notes — display current MIDI note assignments
 set_notes <dit> <dah> — reassign MIDI notes (0–127)
 save — persist current settings to flash
 reset — restore factory defaults and save
-USB device descriptors — manufacturer set to VE7GGH, product set to CW USB Adapter
-Startup double-flash (white) on NeoPixel to confirm successful boot
-Serial welcome banner printed on first Serial connection
-Full status dump printed to Serial on boot
+- USB device descriptors — manufacturer set to VE7GGH, product set to CW USB Adapter
+- Startup double-flash (white) on NeoPixel to confirm successful boot
+- Serial welcome banner printed on first Serial connection
+- Full status dump printed to Serial on boot
+
 Changed
-Loop polling delay reduced from 10 ms to 5 ms for improved responsiveness
-HID ready() check replaced with non-blocking logic
-NeoPixel color macros replaced with inline pixel.Color() calls to avoid macro expansion conflicts
-Code refactored into modular functions with explicit forward declarations
-FlashStorage_SAMD read() call corrected to pass struct by reference (required by library v1.3.2+)
-Dependencies Added
-FlashStorage_SAMD v1.3.2 or later
+- Loop polling delay reduced from 10 ms to 5 ms for improved responsiveness
+- HID ready() check replaced with non-blocking logic
+- NeoPixel color macros replaced with inline pixel.Color() calls to avoid macro expansion conflicts
+- Code refactored into modular functions with explicit forward declarations
+- FlashStorage_SAMD read() call corrected to pass struct by reference (required by library v1.3.2+)
+- Dependencies Added
+- FlashStorage_SAMD v1.3.2 or later
+
 Compatible Software
-HID mode: Morse Code World, VBand, DitDahDit, any CW keyboard app
-MIDI mode: FlexRadio / NetKeyer, any MIDI-capable CW application
+- HID mode: Morse Code World, VBand, DitDahDit, any CW keyboard app
+- MIDI mode: FlexRadio / NetKeyer, any MIDI-capable CW application
