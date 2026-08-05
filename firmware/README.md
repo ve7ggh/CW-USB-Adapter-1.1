@@ -1,4 +1,21 @@
-# Firmware
+# Firmware <!-- omit from toc -->
+
+- [Overview](#overview)
+- [Features](#features)
+- [Dependencies](#dependencies)
+- [Building](#building)
+  - [Requirements](#requirements)
+  - [Compile](#compile)
+  - [Firmware Update](#firmware-update)
+- [Hardware Interface](#hardware-interface)
+  - [3.5 mm TRRS Connector](#35-mm-trrs-connector)
+  - [Onboard Peripherals](#onboard-peripherals)
+  - [Firmware Operation](#firmware-operation)
+    - [USB HID Mapping](#usb-hid-mapping)
+    - [NeoPixel Status](#neopixel-status)
+- [Repository Contents](#repository-contents)
+- [License](#license)
+
 
 ## Overview
 
@@ -64,50 +81,61 @@ No external programmer is required for normal firmware updates.
 
 ### 3.5 mm TRRS Connector
 
-Function	Contact	Arduino Pin	MCU Pin
-Dit	Tip	PIN_TIP	PA04
-Dah	Ring 1	PIN_RING1	PA09
-Ground (Compatibility)	Ring 2	PIN_RING2	PA08
-Ground	Sleeve	PIN_SLEEVE	PA05
-For maximum compatibility with standard 3-conductor (TRS) paddle cables, the firmware actively drives both Ring 2 and Sleeve LOW to provide a common ground.
+| Function | Contact | Arduino Pin | MCU Pin |
+| :-- | :-- | :-- | :-- |
+| Dit | Tip | PIN_TIP | PA04 |
+| Dah | Ring 1 | PIN_RING1 | PA09 |
+| Ground (Compatibility) | Ring 2 | PIN_RING2 | PA08 |
+| Ground | Sleeve | PIN_SLEEVE | PA05 |
+| For maximum compatibility with standard 3-conductor (TRS) paddle cables, the firmware actively drives both Ring 2 and Sleeve LOW to provide a common ground. |
 
-Onboard Peripherals
-Peripheral	Arduino Pin	MCU Pin
-NeoPixel RGB LED	PIN_NEOPIXEL	PA01
-Native USB	—	PA24 / PA25
-Firmware Operation
-USB HID Mapping
-Paddle	USB Output
-Dit	Left Ctrl
-Dah	Right Ctrl
-NeoPixel Status
-State	LED Color
-Idle	Dim Blue
-Dit Pressed	Green
-Dah Pressed	Amber
-Both Paddles Pressed	Purple
-Bootloader Mode	Green (UF2 Bootloader)
-Repository Contents
+### Onboard Peripherals
+
+| Peripheral | Arduino Pin | MCU Pin |
+| :-- | :-- | :-- |
+| NeoPixel RGB LED | PIN_NEOPIXEL | PA01 |
+| Native USB | — | PA24 / PA25 |
+
+###  Firmware Operation
+
+#### USB HID Mapping
+| Paddle | USB Output |
+| :-- | :-- |
+| Dit | Left Ctrl |
+| Dah | Right Ctrl |
+
+#### NeoPixel Status
+
+| State | LED Color |
+| :-- | :-- |
+| Idle | Dim Blue |
+| Dit Pressed | Green |
+| Dah Pressed | Amber |
+| Both Paddles Pressed | Purple |
+| Bootloader Mode | Green (UF2 Bootloader) |
+
+## Repository Contents
+
 This directory typically contains:
 
-Arduino source code
-Project configuration files
-Firmware documentation
-Release firmware (.uf2)
-Commercial Use
-This firmware is licensed under the MIT License.
+- Arduino source code
+- Project configuration files
+- Firmware documentation
+- Release firmware (.uf2)
+- Commercial Use
+- This firmware is licensed under the MIT License.
 
 You are free to:
 
-Use
-Modify
-Redistribute
-Manufacture products
-Sell products
-Create derivative works
-provided the original copyright notice and license are retained.
+- Use
+- Modify
+- Redistribute
+- Manufacture products
+- Sell products
+- Create derivative works provided the original copyright notice and license are retained.
 
-License
+## License
+
 The firmware contained in this directory is licensed under the MIT License.
 
 See:
