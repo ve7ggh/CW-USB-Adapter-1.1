@@ -27,15 +27,16 @@ This project is a complete open-source hardware and software design, including c
 
 ## Instructions on How to Use
 
-The CW USB Adapter works with Morse COde **Paddles** that use a TRS 3.5mm cable. The adapter is a plug-and-play device - not drivers need to be installed.
+The CW USB Adapter works with Morse Code **Paddles** that use a TRS 3.5mm cable. The adapter is a plug-and-play device - no drivers need to be installed.
 
-Once you plug in the paddle works like a keyboard:
-* **Dits** are the Left Control (`L-Ctrl`)
-* **Dahs** are the Right Control (`R-Ctrl`)
+Once you plug in the adapter, the paddle works like a keyboard:
+
+* **Dits** are the Left Control (`L-Ctrl`) key
+* **Dahs** are the Right Control (`R-Ctrl`) key
 
 ### Practice Software
 
-The CW USB can be used with the following applications or websites:
+The CW USB adapter can be used with (but is not limited to) the following web applications:
 
 * [MoreCode.World Keyer](https://morsecode.world/international/trainer/keyer.html)
 * [DiDahDit](https://didahdit.com/)
