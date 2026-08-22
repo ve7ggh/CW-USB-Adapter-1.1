@@ -126,7 +126,7 @@ Compatible Software
 - MIDI mode: FlexRadio / NetKeyer, any MIDI-capable CW application
 
 
-# Changelog — VE7GGH CW USB Adapter (v1.3 Stable Release)
+# Changelog — VE7GGH CW USB Adapter (v1.3 Stable Release) Aug 2026
 
 ## Release Overview
 
