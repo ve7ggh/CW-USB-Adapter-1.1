@@ -22,13 +22,28 @@ The VE7GGH CW USB Adapter converts a standard Morse code paddle or straight key 
 This project is a complete open-source hardware and software design, including custom hardware, open-source firmware, a modified UF2 bootloader, manufacturing files, and documentation.
 
 > **Note**: This project is an independent derivative work based on the Adafruit TRRS Trinkey open-source hardware and software ecosystem and is not affiliated with or endorsed by Adafruit Industries.
+            - In honour of them this projects Bootloader and Firmware v1.x works on their hardware for half price, however if you want to support a HAM to continue inventing radio related open source devices, then I thank you for your support, it means so much to me.
+            -Small batches of working v1.x are being produced. 			
+             
+			I am a beginner when it comes to development, all this was new to me 6 months ago, please accept there may be errors or conflicting information in the heavy documentation, I am learning and struggling with my own design.
+			As development continues I will learn to organize as best as possible and follow version control to make things clear for the beginner to follow and contribute.
+			
+			Version 1.x series is proof of design utilizing 3D printed resin shell and simple updates to solve the issue of cheap chinese adapters being a waste of time and money.
+				-Features added beyond basic paddle control for online/app training of CW.
+                -Addded MIDI capabilities to work with FLEX Radio
+				-Sublicense from Microchip inc for USB HID/VID limited to 10K units.
+            Version 2.x series will change to injection molded case and be larger like USB thumb drive includung protective cap and lanyard attachment.
+                -Larger board for ease of manufacturing, adding improvments and reducing cost.
+                -Color choices of shell, grey or transparent.
+                -Switching 3.5mm jack to mid mount TRS.
+                -ESD protections for microcontroller.				
 
 ---
 
 ## Instructions on How to Use
 
 The CW USB Adapter works with Morse Code **Paddles** that use a TRS 3.5mm cable. The adapter is a plug-and-play device - no drivers need to be installed.
-
+Wiring follows the standard: Tip (DIT), Ring (DAH), Sleeve (Ground)
 Once you plug in the adapter, the paddle works like a keyboard:
 
 * **Dits** are the Left Control (`L-Ctrl`) key
