@@ -21,7 +21,7 @@ The VE7GGH CW USB Adapter converts a standard Morse code paddle or straight key 
 
 This project is a complete open-source hardware and software design, including custom hardware, open-source firmware, a modified UF2 bootloader, manufacturing files, and documentation.
 
-> **Note**: This project is an independent derivative work based on the Adafruit TRRS Trinkey open-source hardware and software ecosystem and is not affiliated with or endorsed by Adafruit Industries.
+> **NOTE**: This project is an independent derivative work based on the Adafruit TRRS Trinkey open-source hardware and software ecosystem and is not affiliated with or endorsed by Adafruit Industries.
             - In honour of them this projects Bootloader and Firmware v1.x works on their hardware for half price, however if you want to support a HAM to continue inventing radio related open source devices, then I thank you for your support, it means so much to me.
             -Small batches of working v1.x are being produced. 			
              
