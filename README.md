@@ -1,4 +1,19 @@
-# VE7GGH CW USB Adapter
+# VE7GGH CW USB Adapter <!-- omit from toc -->
+
+- [Instructions on How to Use](#instructions-on-how-to-use)
+  - [Practice Software](#practice-software)
+- [Project Structure](#project-structure)
+- [Hardware](#hardware)
+- [Firmware](#firmware)
+- [Bootloader](#bootloader)
+- [Building](#building)
+  - [Hardware](#hardware-1)
+  - [Firmware](#firmware-1)
+  - [Bootloader](#bootloader-1)
+- [Updating Firmware](#updating-firmware)
+- [Licensing](#licensing)
+- [Acknowledgements](#acknowledgements)
+- [Author](#author)
 
 An open-source USB CW paddle interface based on the Microchip ATSAMD21E18A microcontroller.
 
@@ -7,6 +22,25 @@ The VE7GGH CW USB Adapter converts a standard Morse code paddle or straight key 
 This project is a complete open-source hardware and software design, including custom hardware, open-source firmware, a modified UF2 bootloader, manufacturing files, and documentation.
 
 > **Note**: This project is an independent derivative work based on the Adafruit TRRS Trinkey open-source hardware and software ecosystem and is not affiliated with or endorsed by Adafruit Industries.
+
+---
+
+## Instructions on How to Use
+
+The CW USB Adapter works with Morse Code **Paddles** that use a TRS 3.5mm cable. The adapter is a plug-and-play device - no drivers need to be installed.
+
+Once you plug in the adapter, the paddle works like a keyboard:
+
+* **Dits** are the Left Control (`L-Ctrl`) key
+* **Dahs** are the Right Control (`R-Ctrl`) key
+
+### Practice Software
+
+The CW USB adapter can be used with (but is not limited to) the following web applications:
+
+* [MoreCode.World Keyer](https://morsecode.world/international/trainer/keyer.html)
+* [DiDahDit](https://didahdit.com/)
+* [VBand](https://hamradio.solutions/vband/)
 
 ---
 
