@@ -32,8 +32,8 @@ This project is a complete open-source hardware and software design, including c
 				-Features added beyond basic paddle control for online/app training of CW.
                 -Addded MIDI capabilities to work with FLEX Radio
 				-Sublicense from Microchip inc for USB HID/VID limited to 10K units.
-            Version 2.x series will change to injection molded case and be larger like USB thumb drive includung protective cap and lanyard attachment.
-                -Larger board for ease of manufacturing, adding improvments and reducing cost.
+            Version 2.x series will change to injection molded case and be larger like USB thumb drive including protective cap and lanyard attachment.
+                -Larger board for ease of manufacturing, adding improvements and reducing cost.
                 -Color choices of shell, grey or transparent.
                 -Switching 3.5mm jack to mid mount TRS.
                 -ESD protections for microcontroller.				
@@ -64,8 +64,8 @@ The CW USB adapter can be used with (but is not limited to) the following web ap
 | Directory | Description |
 |:---|:---|
 | `/hardware` | PCB design, schematics, Gerbers, BOM, EasyEDA source |
-| `/firmware` | Application firmware |
-| `/bootloader` | Customized UF2 bootloader |
+| `/firmware` | UF2 Application firmware |
+| `/bootloader` | UF2 bootloader |
 | `/files` | 3D models, mechanical drawings and supporting files |
 
 Detailed documentation is available in the README contained within each directory.
@@ -91,13 +91,13 @@ See: [hardware/README.md](hardware/README.md)
 
 ## Firmware
 
-The firmware converts paddle closures into USB HID keyboard events while providing visual feedback using the onboard NeoPixel.
+The firmware converts paddle closures into USB HID keyboard events while providing visual feedback using the onboard RGB Led.
 
 Features include:
-
-- USB HID Keyboard
+- UF2 drag and drop firmware (for easy updates)
+- USB HID Keyboard (simulates the device) CTRL LEFT/CTRL RIGHT
 - Iambic paddle support
-- NeoPixel indicators
+- NeoPixel RGB LED indicator
 - Low-latency operation
 
 See: [firmware/README.md](firmware/README.md)
