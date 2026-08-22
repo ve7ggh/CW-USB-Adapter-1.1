@@ -124,3 +124,59 @@ Changed
 Compatible Software
 - HID mode: Morse Code World, VBand, DitDahDit, any CW keyboard app
 - MIDI mode: FlexRadio / NetKeyer, any MIDI-capable CW application
+
+
+# Changelog — VE7GGH CW USB Adapter (v1.3 Stable Release)
+
+## Release Overview
+
+**VE7GGH CW USB Adapter v1.3 Stable** is a dedicated, production-ready USB HID keyboard adapter for CW iambic morse paddles. It provides clean, ultra-low latency keying without the added complexity or resource overhead of MIDI, Serial CLI parsers, or flash storage writes.
+
+This release formally establishes custom USB identification under a sublicensed Vendor ID and Product ID from Microchip Technology Inc.
+
+---
+
+## [v1.3 Stable] — Hardware Identity & Production Baseline
+
+### USB Architecture & Microchip Sublicensed Identity
+- **USB Vendor ID (VID)**: `0x04D8` (Microchip Technology Inc. sublicensed tier)
+- **USB Product ID (PID)**: `0xE417`
+- **Product Name**: `VE7GGH CW Adapter`
+- **Manufacturer**: `VE7GGH`
+- **USB Stack**: Adafruit TinyUSB (`-DUSE_TINYUSB`)
+- Synchronized VID/PID with the companion SAMD21 UF2 bootloader (`board_config.h`).
+- Corrected TinyUSB startup sequencing: `usb_hid.begin()` and descriptor registration are finalized before bus re-attachment (`TinyUSBDevice.attach()`), guaranteeing clean plug-and-play enumeration on Windows, Linux, and macOS.
+
+### Pure HID Keyboard Engine
+- Dedicated keypress translation:
+  - **Dit Contact** (Tip) $
+ightarrow$ `Left Ctrl` (`KEYBOARD_MODIFIER_LEFTCTRL`)
+  - **Dah Contact** (Ring 1) $
+ightarrow$ `Right Ctrl` (`KEYBOARD_MODIFIER_RIGHTCTRL`)
+- **Differential HID Reporting**: Transmits USB HID keyboard reports strictly when paddle state changes (`modifier != last_modifier`), drastically reducing USB bus traffic while preserving immediate sub-millisecond response.
+- Excludes MIDI engine and Serial CLI parser to keep firmware footprint small, deterministic, and free of dynamic memory churn.
+
+### Hardware & Jack Compatibility
+- **Microcontroller**: Microchip SAMD21E18A (ARM Cortex-M0+ @ 48 MHz).
+- **Jack Interface**: TRRS 3.5mm jack with automatic TRS stereo plug compatibility:
+  - Tip (`PIN_TIP` / GPIO 0): Dit input (Internal Pull-Up)
+  - Ring 1 (`PIN_RING1` / GPIO 2): Dah input (Internal Pull-Up)
+  - Ring 2 (`PIN_RING2` / GPIO 4): Driven active `LOW`
+  - Sleeve (`PIN_SLEEVE` / GPIO 5): Driven active `LOW`
+- **Visual Feedback (NeoPixel on PIN_PA01)**:
+  - Idle: Dim Blue (`(0, 0, 20)`)
+  - Dit Active: Solid Green (`(0, 80, 0)`)
+  - Dah Active: Solid Amber (`(80, 40, 0)`)
+  - Both Active: Solid Purple (`(80, 0, 80)`)
+  - Startup: White indicator flash upon host USB enumeration.
+
+---
+
+## Version Lineage Summary
+
+| Version | Branch / Target | Key Changes |
+| :--- | :--- | :--- |
+| **v1.0 / v1.1** | Prototype | Initial proof of concept on Adafruit TRRS Trinkey hardware. |
+| **v1.2 RC** | Experimental | Added experimental USB MIDI, Serial CLI configuration, and `FlashStorage_SAMD`. |
+| **v1.3 Stable** *(This Release)* | **Production Stable** | **Pure HID keyboard firmware.** Corrected USB enumeration order, integrated Microchip VID/PID (`0x04D8:0xE417`), differential report dispatching, and removed CLI/MIDI complexity. |
+| **v1.3 RC3 / v1.4** | Feature Branch | Advanced build with simultaneous HID + MIDI, Serial CLI, flash settings, and custom `board integration for Arduino IDE. |
