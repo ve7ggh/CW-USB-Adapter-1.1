@@ -17,7 +17,7 @@
 
 An open-source USB CW paddle interface based on the Microchip ATSAMD21E18A microcontroller.
 
-The VE7GGH CW USB Adapter converts a standard Morse code paddle or straight key into a USB Human Interface Device (HID) keyboard, allowing it to work with a wide variety of amateur radio applications, Morse code trainers, and operating systems without requiring proprietary drivers.
+The adapter converts a standard Morse code paddle or straight key into a USB Human Interface Device (HID) keyboard, allowing it to work with a wide variety of amateur radio applications, Morse code trainers, and operating systems without requiring proprietary drivers.
 
 This project is a complete open-source hardware and software design, including custom hardware, open-source firmware, a modified UF2 bootloader, manufacturing files, and documentation.
 
@@ -25,7 +25,7 @@ This project is a complete open-source hardware and software design, including c
             - In honour of them this projects Bootloader and Firmware v1.x works on their hardware for half price, however if you want to support a HAM to continue inventing radio related open source devices, then I thank you for your support, it means so much to me.
             -Small batches of working v1.x are being produced. 			
              
-			I am a beginner when it comes to development, all this was new to me 6 months ago, please accept there may be errors or conflicting information in the heavy documentation, I am learning and struggling with my own design.
+			I am a beginner when it comes to development, still learning CW, all this was new to me 6 months ago, please accept there may be errors or conflicting information in the heavy documentation, I am learning and struggling with my own design.
 			As development continues I will learn to organize as best as possible and follow version control to make things clear for the beginner to follow and contribute.
 			
 			Version 1.x series is proof of design utilizing 3D printed resin shell and simple updates to solve the issue of cheap chinese adapters being a waste of time and money.
