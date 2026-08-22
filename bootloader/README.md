@@ -23,6 +23,11 @@ This version includes board-specific changes for the CW USB Adapter hardware inc
 - Custom Pin mappings and LED behaviors.
 - Board-specific USB VID/PID and Strings.
 - Optimized build configurations for the ATSAMD21E18A.
+- USB Architecture & Microchip Sublicensed Identity
+- USB Vendor ID (VID): 0x04D8 (Microchip Technology Inc. sublicensed tier)
+- USB Product ID (PID): 0xE417
+- Product Name: VE7GGH CW Adapter
+- Manufacturer: VE7GGH
 
 ## Licensing
 
