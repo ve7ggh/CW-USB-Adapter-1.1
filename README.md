@@ -52,6 +52,7 @@ Once you plug in the adapter, the paddle works like a keyboard:
 ### Practice Software
 
 The CW USB adapter can be used with (but is not limited to) the following web applications:
+More will be added to this list once verified.
 
 * [MoreCode.World Keyer](https://morsecode.world/international/trainer/keyer.html)
 * [DiDahDit](https://didahdit.com/)
