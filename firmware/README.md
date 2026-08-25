@@ -30,13 +30,16 @@ When a paddle contact is closed:
 
 This allows the adapter to work with a wide variety of Morse code training software and amateur radio applications without requiring custom drivers.
 
-The firmware is designed to be compiled using the Arduino IDE or PlatformIO and uploaded using the UF2 bootloader.
+The firmware is designed to be compiled using the Arduino IDE or PlatformIO. Can generate .bin firmware, then convert to .uf2 before being drag and drop compatible.
+Or upload to connected com port device on local computer with IDE, all testing done with Arduino IDE.
+Or just download my firmware releases from the Github Repo.
 
 ## Features
 
 - USB HID Keyboard device
 - Low-latency paddle input
 - Iambic paddle support
+- MIDI device support.
 - NeoPixel RGB status indicator
 - Native USB support
 - UF2 drag-and-drop firmware updates
@@ -57,7 +60,7 @@ This firmware uses the following open-source libraries:
 ### Requirements
 
 - Arduino IDE 2.x or PlatformIO
-- Adafruit SAMD Board Package
+- Adafruit SAMD Board Package or CW USB Adapter Custom Arduino package (in development)
 - TinyUSB selected as the USB Stack
 
 ### Compile
@@ -70,7 +73,7 @@ This firmware uses the following open-source libraries:
 ### Firmware Update
 
 1. Connect the device to your computer.
-2. Double-tap the Reset button to enter UF2 Bootloader mode.
+2. Double-tap the Reset button to enter Bootloader mode.
 3. A USB drive will appear.
 4. Copy the compiled `.uf2` firmware file onto the drive.
 5. The device will automatically reboot with the updated firmware.
@@ -108,11 +111,11 @@ No external programmer is required for normal firmware updates.
 
 | State | LED Color |
 | :-- | :-- |
-| Idle | Dim Blue |
-| Dit Pressed | Green |
-| Dah Pressed | Amber |
-| Both Paddles Pressed | Purple |
-| Bootloader Mode | Green (UF2 Bootloader) |
+| Idle | **Dim** Blue |
+| Dit Pressed | **Green** |
+| Dah Pressed | **Amber** |
+| Both Paddles Pressed | **Purple** |
+| Bootloader Mode | **Green** (UF2 Bootloader) |
 
 ## Repository Contents
 
