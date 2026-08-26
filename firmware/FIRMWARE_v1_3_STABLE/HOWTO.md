@@ -2,7 +2,7 @@
 
 ## Overview
 
-The VE7GGH CW USB Adapter connects an iambic CW paddle to a computer as a standard USB HID keyboard. It converts the **Dit** paddle contact to **Left Ctrl** and the **Dah** contact to **Right Ctrl**, allowing compatible CW practice, contest, and web keyer software to receive direct paddle input.
+The VE7GGH CW USB Adapter connects an iambic CW paddle to a computer as a standard USB HID keyboard. It converts the **Dit** paddle contact to **Left Ctrl** and the **Dah** contact to **Right Ctrl**, allowing compatible CW practice, and web keyer software to receive direct paddle input. A growing list of compatibility is being listed in the main project README.
 
 ## Features and Benefits
 
