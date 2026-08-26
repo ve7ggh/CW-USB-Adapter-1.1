@@ -58,6 +58,8 @@ More will be added to this list once verified.
 * [DiDahDit](https://didahdit.com/)
 * [VBand](https://hamradio.solutions/vband/)
 
+The CW USB adapter can also be used with Remote Flex Radio MIDI and AetherSDR (in development) Beta testing in **CWUSB firmware 1.2RC2.UF2**
+Future potential for Remote ICOM 7300 testing (Advanced required in Canada for remote transmit)
 ---
 
 ## Project Structure
